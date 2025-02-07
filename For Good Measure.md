@@ -25,14 +25,14 @@
 
 1. **Series Circuit Assembly:**
    
-   The circuit constructed for this portion of the lab is described by the following schematic in Figure 1. The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
+   The circuit constructed for this portion of the lab is described by the following schematic in Figure 1. The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard. Be sure to verify the resistor values using the DMM before soldering any resistors into the protoboard.
 
 <div align="center">
   <img src="Schematic1" alt="Schematic 1" width="400">
   <p><b>Figure 1:</b> Schematic describing the series resistor circuit built for part 1 of this lab.</p>
 </div>
 
-   Once the circuit was verified to be correct, we used the soldering station set to 650 degress to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
+   Once the circuit was verified to be correct, we used the soldering station set to 640 degrees to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
 
  <div align="center">
   <img src="hand solder diagram.jpg" alt="Technique for Soldering" width="400">
@@ -55,18 +55,18 @@
    
 2. **Parallel Circuit**
 
-   Obtain the following resistors: 4.7 kΩ (R1), 6.8 kΩ (R2), 15 kΩ (R3), 220 kΩ (R5), and 2.2 kΩ (R5 = RL) and verify their resistance value (if not already performed in Objective 1). Refer to the schematic given in Figure 4 for assembly instruction.
+   Obtain the following resistors: 4.7 kΩ (R1), 6.8 kΩ (R2), 15 kΩ (R3), 220 kΩ (R5), and 2.2 kΩ (R5 = RL) and verify their resistance value using the DMM. Record the measured resistances in a table. Refer to the schematic given in Figure 4 for assembly instruction.
 
    <div align="center">
   <img src="Schematic2" alt="Schematic 2" width="400">
-  <p><b>Figure 4:</b> Parallel resistor circuit schematic for part 2 of this lab.</p>
+  <p><b>Figure 4:</b> Parallel resistor circuit schematic.</p>
 </div>
 
    No soldering is necessary for this circuit, but verification of the DCPS voltage output was performed using the DMM to ensure the voltage is within .1V of the expected output. Once assembled, the circuit should look like the following:
 
    <div align="center">
-  <img src="Lab2Circuit2.png" alt="Assembled series resistor circuit" width="400">
-  <p><b>Figure 5:</b> Assembled series resistor circuit for part 2 of this lab.</p>
+  <img src="Lab2Circuit2.png" alt="Assembled parallel resistor circuit" width="400">
+  <p><b>Figure 5:</b> Assembled parallel resistor circuit for part 2.1 and 2.2 of this lab.</p>
 </div>
 
 
@@ -92,40 +92,41 @@
    
 ## Test Procedures:
 
-**Objective 1: Use the above-listed lab equipment to measure and verify equipment, component, and
-circuit values**
+**Resistor Measurement**
 
-1. **Resistor Value Verification:**
-   
-   Identified resistors needed for each circuit and recorded their color codes to determine expected values, then we used a Fluke 87 V DMM to measure the actual resistance by connecting the alligator clips to each resistor's leads.
-   We then compared the measured values with expected values and checked if they were within tolerance.
+   For this part of the experiment, the resistance each resistor was measured using a Digital Multimeter (DMM) and the results were compared to the expected values based on the resistor color codes. We recorded the expected resistance, the acceptable tolerance range, and the measured resistance in a table. Any resistors that fell outside the expected range were noted.
 
-2. **DCPS Output Verification:**
+**DCPS Output Verification:**
    
    To verify the voltage output of the DCPS, the DMM leads were connected to the output cables of the DCPS. Red was connected to red, and black was connected to black.
    The measured voltage output was then compared to the expected output voltage manually set on the DCPS.
 
-5. **Function Generator Output**
+**Part 1: Series Circuit**
 
-   We set the function generator to produce a 2kHz sine wave at maximum amplitude and measured the output using multiple methods. These included:
-      - Counting squares on the oscilloscope screen
-      - Using the oscilloscope’s moveable cursors
-      - Utilizing the oscilloscope’s built-in measurement functions
-      - Measuring the signal with the DMM
+1. **Voltage and Current Measurements:**
+   
+    Using the soldered circuit created in objective 1 of the assembly procedures, connect the terminals of R1 and R3 to the DC Power Supply using the alligator clips. Ensure black is connected to - terminal (ground) and red is connected to the + terminal.
+   Once connected, set the DCPS to 10 V and press the OUTPUT ON button to begin delivering power to the circuit. Next, using the DMM measure the voltage drop across each resistor and record the results in a table.
+   Change the DMM settings and lead connections to measure current, then record the current in the circuit.
+
+
+**Part 2: Parallel Circuit**
+
+2.1. **Kirchhoff's Current Law (KCL):**
+
+   Use the circuit assembled in step 2 of objective 2 of the assembly procedures. Connect the positive terminal of the circuit to the red (+) lead and the negative terminal to the black (-) lead of the DCPS.
+   Once connected, set the DCPS to provide 12 V and press the OUTPUT ON button to begin delivering power to the circuit.
+   Using the DMM in series with the elements of interest in current mode, measure the current through all resistors in the circuit and record the values in a table.
   
-<div align="center">
-  <img src="IMG_1445.jpg" alt="Function Generator" width="400">
-  <p><b>Figure 4:</b> Setup for 2 kHz sine wave generation on function generator.</p>
-</div>
+2.2. **Kirchhoff's Voltage Law (KVL):**
 
-<div align="center">
-  <img src="IMG_1446.jpg" alt="Oscilloscope Output" width="400">
-  <p><b>Figure 5:</b> Sine wave output generated on oscilloscope from generated function.</p>
-</div>
+   Use the same circuit assembly from step 2 of objective 2 of the assembly procedures. With the DMM, measure the voltage acrosss each resistor in the circuit and record the values in a table. Then, calculate the expected voltage drop for each resistor using Ohm's Law and the currents previously recorded.
 
-**Objective 2: Learn how to use GitHub for collaboration and to post your report**
+2.3. **Thevenin and Norton:**
 
-
+   Use the circuit assembly from step 3 of objective 2 of the assembly procedures. Once assembled, use the DMM to measure the voltage across R4. This voltage is the same as that applied to the "load" and can also be expressed as VTH.
+   Set up the DMM to measure DC current, then connect the leads to the terminals of R4 to act as a short circuit. Measure the current IN and record the value observed.
+   Remove the DMM leads from the circuit and replace with one wire connecting the disconnected end of R1 to the disconnected end of R4. Return the DMM to the Ohm meter setting and measure the equivalent resistance for the passive circuit.
 
 ## Test Results:
 | Resistance of DMM Cables (Ohms) |
