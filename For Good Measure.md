@@ -121,6 +121,8 @@
 2.2. **Kirchhoff's Voltage Law (KVL):**
 
    Use the same circuit assembly from step 2 of objective 2 of the assembly procedures. With the DMM, measure the voltage acrosss each resistor in the circuit and record the values in a table. Then, calculate the expected voltage drop for each resistor using Ohm's Law and the currents previously recorded.
+   To calculate expected voltage drop, use the formula:
+   <div align="center"> V = I/R </div>
 
 2.3. **Thevenin and Norton:**
 
@@ -156,14 +158,24 @@
 | 0                              | 12                             | 12                          |
 
 
-**Table 4: Measured Currents for KCL Circuit (Part 2.2)**
+**Table 4: Measured Currents for KCL Circuit (Part 2.1)**
 
-|   Current Label   |  Measured Value  |
-|-------------------|------------------|
-| I1                | Sinusoidal  | 
-| I 2/3             | Sinusoidal  | 
-| I4                | Sinusoidal  | 
-| I5/IL             | Sinusoidal  |
+|   Current Label   |  Measured Value (mA)  |
+|-------------------|-----------------------|
+| I1                | 1.82                  | 
+| I 2/3             | 1.82                  | 
+| I4                | 1.65                  | 
+| I5/IL             | 1.64                  |
+
+
+**Table 4: Voltage Comparisons for KVL Circuit (Part 2.2)**
+
+| Voltage | Measured Magnitude (V) | Calculated Voltages (V) |
+|---------|------------------------|-------------------------|
+| V1      | 
+| V2      |
+| V3      |
+| V4      |
 
 ## Discussion:
 
