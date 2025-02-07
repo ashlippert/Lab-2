@@ -38,13 +38,13 @@
    Once the circuit was verified to be correct, we used the soldering station set to 650 degress to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
 
  <div align="center">
-  <img src="hand solder circuit.png" alt="Technique for Soldering" width="400">
+  <img src="hand solder diagram.jpg" alt="Technique for Soldering" width="400">
   <p><b>Figure 1:</b> Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray.</p>
 </div>
 
 
    <div align="center">
-  <img src="CircuitSolder.png" alt="Top View of Soldered Series Circuit" width="400">
+  <img src="CircuitSolder" alt="Top View of Soldered Series Circuit" width="400">
   <p><b>Figure 2:</b> Top view of soldered series resistor circuit.</p>
 </div>
 
