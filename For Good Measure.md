@@ -122,7 +122,7 @@
 
    Use the same circuit assembly from step 2 of objective 2 of the assembly procedures. With the DMM, measure the voltage acrosss each resistor in the circuit and record the values in a table. Then, calculate the expected voltage drop for each resistor using Ohm's Law and the currents previously recorded.
    To calculate expected voltage drop, use the formula:
-   <div align="center"> V = I/R </div>
+   <div align="center"> V = I*R </div>
 
 2.3. **Thevenin and Norton:**
 
@@ -160,22 +160,23 @@
 
 **Table 4: Measured Currents for KCL Circuit (Part 2.1)**
 
-|   Current Label   |  Measured Value (mA)  |
-|-------------------|-----------------------|
-| I1                | 1.82                  | 
-| I 2/3             | 1.82                  | 
-| I4                | 1.65                  | 
-| I5/IL             | 1.64                  |
+|   Current Label   |  Measured Value (A)  |
+|-------------------|----------------------|
+| I1                | 0.00182              | 
+| I 2/3             | 0.00182              | 
+| I4                | 0.0000445            | 
+| I5/IL             | 0.00164              |
 
 
 **Table 4: Voltage Comparisons for KVL Circuit (Part 2.2)**
 
 | Voltage | Measured Magnitude (V) | Calculated Voltages (V) |
 |---------|------------------------|-------------------------|
-| V1      | 
-| V2      |
-| V3      |
-| V4      |
+| V1      | 8.44                   | 8.29                    |
+| V2      | 1.1                    | 12.64                   |
+| V3      | 2.45                   | 27.73                   |
+| V4      | 3.55                   | 352.11                  |
+| V5      | 3.55                   | 3.742                   |
 
 ## Discussion:
 
