@@ -33,19 +33,25 @@
 
 3. **Series Circuit Assembly:**
    
-   The circuit constructed for this portion of the lab is described by the following schematic in Figure 1.
-   The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
+   The circuit constructed for this portion of the lab is described by the following schematic in Figure 1. The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
+
+<div align="center">
+  <img src="hand solder diagram.jpg" alt="Schematic 1" width="400">
+  <p><b>Figure 1:</b> Schematic describing the series resistor circuit built for part 1 of this lab.</p>
+</div>
+
    Once the circuit was verified to be correct, we used the soldering station set to 650 degress to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
 
  <div align="center">
   <img src="hand solder diagram.jpg" alt="Technique for Soldering" width="400">
-  <p><b>Figure 1:</b> Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray.</p>
+  <p><b>Figure 2:</b> Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray.</p>
 </div>
 
+   The
 
    <div align="center">
   <img src="CircuitSolder" alt="Top View of Soldered Series Circuit" width="400">
-  <p><b>Figure 2:</b> Top view of soldered series resistor circuit.</p>
+  <p><b>Figure 3:</b> Top view of soldered series resistor circuit.</p>
 </div>
 
 **Objective 2: Learn how to use GitHub for collaboration and to post your report**
