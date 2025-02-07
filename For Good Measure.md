@@ -2,7 +2,7 @@
 
 ## Authors: Ashlyn Lippert and Seth Daniel
 
-## Date: February 3rd, 2025
+## Date: February 9th, 2025
 
 ## Introduction:
    The goal of this project was to analyze electrical circuits by applying fundamental circuit laws, including Kirchhoff’s Voltage Law (KVL), Kirchhoff’s Current Law (KCL), and Ohm’s Law. The analysis also incorporated Thevenin’s and Norton’s theorems, along with the superposition principle, to simplify complex circuit calculations. Additionally, the project required hands-on circuit assembly and soldering, reinforcing practical skills essential for electrical and electronic work.
@@ -79,6 +79,22 @@
   <p><b>Figure 5:</b> Assembled series resistor circuit for part 2 of this lab.</p>
 </div>
 
+
+3. **Thevenin and Norton**
+
+   Thevenin’s Theorem states that all linear circuits can be expressed as a circuit with one equivalent voltage source and one equivalent resistance. To create the Thevenin equivalent circuit, remove R5 from the parallel circuit assembled in the previous step of Objective 2. The schematic for the Thevenin circuit is shown in Figure 6 below.
+
+   <div align="center">
+  <img src="Schematic3" alt="Thevenin circuit" width="400">
+  <p><b>Figure 6:</b> Thevenin equivalent circuit schematic.</p>
+</div>
+
+   When assembled, the Thevenin circuit should resemble the image below.
+
+   <div align="center">
+  <img src="Lab2Circuit3" alt="Assembled Thevenin circuit" width="400">
+  <p><b>Figure 5:</b> Assembled Thevenin resistor circuit for part 2.3 of this lab.</p>
+</div>
 
 ## Test Equipment:
 1. Fluke 87 V DMM
