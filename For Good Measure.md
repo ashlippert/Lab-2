@@ -36,7 +36,13 @@
    The circuit constructed for this portion of the lab is described by the following schematic in Figure 1.
    The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
    Once the circuit was verified to be correct, we used the soldering station set to 650 degress to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
-   
+
+
+
+   <div align="center">
+  <img src="CircuitSolder.png" alt="Top View of Soldered Series Circuit" width="400">
+  <p><b>Figure 2:</b> Top view of soldered series resistor circuit.</p>
+</div>
 
 **Objective 2: Learn how to use GitHub for collaboration and to post your report**
 
