@@ -140,26 +140,21 @@
 
 
 **Resistor Values for Schematics 2 and 3:**
-| Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) | Measured Resistance - Resistance of Cables (Ohms) |
-|------------|--------|--------|--------|--------|--------------------------|-----------|----------------|----------------|----------------------|---------------------------------|
-| 1          | Yellow | Purple | Green  | Gold   | 4700000                  | 5%        | 4935000        | 4465000        | 4720000              | 4719998.8                         |
-| 2          | Brown  | Green  | Black  | Gold   | 15                        | 5%        | 15.75          | 14.25          | 15.7                  | 14.5                               |
-| 3          | Brown  | Gray   | Brown  | Gold   | 180                       | 5%        | 189            | 171            | 187                   | 185.8                              |
-| 4          | Gray   | Red    | Red    | Gold   | 8200                      | 5%        | 8610           | 7790           | 8230                  | 8228.8                             |
+| Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) |
+|------------|--------|--------|--------|--------|----------------------------|-----------|----------------------|------------------|----------------------------|
+| 1          | Yellow | Purple | Red    | Gold   | 4700                       | 5%        | 4935    
+             | 4465             | 4555                       |
+| 2          | Blue   | Grey   | Red    | Gold   | 6800                       | 5%        | 7140                 | 6460             | 6946                       |
+| 3          | Brown  | Green  | Orange | Gold   | 15000                      | 5%        | 15750                | 14250            | 15240                      |
+| 4          | Red    | Red    | Red    | Gold   | 2200                       | 5%        | 2310                 | 2090            | 2282                        |
 
-**Polarity Check for Electrolytic Capacitor:**
-| DMM Lead #1 | DMM Lead #2 | Voltage Measurement (V) |
-|-------------|-------------|-------------------------|
-| Black       | Red         | 528                     |
-| Red         | Black       | 528                     |
 
 **Power Supply Voltage Verification:**
 | Expected Current from DCPS (A) | Expected Voltage from DCPS (V) | DMM Voltage Measurement (V) |
 |--------------------------------|--------------------------------|-----------------------------|
-| 0                              | 1.5                            | 1.499                       |
-| 0                              | 7                              | 7                           |
+| 0                              | 10                             | 9.99                        |
 | 0                              | 12                             | 12                          |
-| 0                              | 3.3/3.5                        | 3.417                       |
+
 
 **Function Generator Output:**
 |       Method        |  Wave Type  | Frequency (kHz) | Amplitude (V) |
