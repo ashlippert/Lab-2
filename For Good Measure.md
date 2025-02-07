@@ -36,7 +36,7 @@
    The circuit constructed for this portion of the lab is described by the following schematic in Figure 1. The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
 
 <div align="center">
-  <img src="hand solder diagram.jpg" alt="Schematic 1" width="400">
+  <img src="Schematic 1" alt="Schematic 1" width="400">
   <p><b>Figure 1:</b> Schematic describing the series resistor circuit built for part 1 of this lab.</p>
 </div>
 
@@ -47,7 +47,7 @@
   <p><b>Figure 2:</b> Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray.</p>
 </div>
 
-   The
+   The resistors were soldered by placing the soldering iron on the designated solder point, then after a couple seconds, introducing the solder material to the same point. Once the solder is liquefied, the iron was used to ensure the solder is in the appropriate location and covering the resistor leads. The same process was used for each resistor lead. Each partner performed 3 resistor lead solders on the protoboard. Additionally, one end of two separate wires were soldered to the terminals of R1 and R3 for DCPS connection. The finished soldered series circuit is provided in the figure below. 
 
    <div align="center">
   <img src="CircuitSolder" alt="Top View of Soldered Series Circuit" width="400">
