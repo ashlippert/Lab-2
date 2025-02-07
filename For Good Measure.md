@@ -129,26 +129,23 @@
    Remove the DMM leads from the circuit and replace with one wire connecting the disconnected end of R1 to the disconnected end of R4. Return the DMM to the Ohm meter setting and measure the equivalent resistance for the passive circuit.
 
 ## Test Results:
-| Resistance of DMM Cables (Ohms) |
-|---------------------------------|
-|          1.2                    |
 
-**Resistor Values:**
+**Resistor Values for Soldered Circuit (Schematic 1):**
 
+| Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) |
+|------------|--------|--------|--------|--------|----------------------------|-----------|----------------------|------------------|----------------------------|
+| 1          | Brown  | Black  | Red    |        | 1000                       |           | 1000                 | 1000             | 991                        |
+| 2          | Red    | Red    | Red    | Gold   | 2200                       | 5%        | 2310                 | 2090            | 2160                        |
+| 3          | Green  | Brown  | Red    | Gold   | 5100                       | 5%        | 5355                 | 4845            | 4970                        |
+
+
+**Resistor Values for Schematics 2 and 3:**
 | Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) | Measured Resistance - Resistance of Cables (Ohms) |
 |------------|--------|--------|--------|--------|--------------------------|-----------|----------------|----------------|----------------------|---------------------------------|
 | 1          | Yellow | Purple | Green  | Gold   | 4700000                  | 5%        | 4935000        | 4465000        | 4720000              | 4719998.8                         |
 | 2          | Brown  | Green  | Black  | Gold   | 15                        | 5%        | 15.75          | 14.25          | 15.7                  | 14.5                               |
 | 3          | Brown  | Gray   | Brown  | Gold   | 180                       | 5%        | 189            | 171            | 187                   | 185.8                              |
 | 4          | Gray   | Red    | Red    | Gold   | 8200                      | 5%        | 8610           | 7790           | 8230                  | 8228.8                             |
-
-**Capacitor Values:**
-| Capacitor # | Capacitor Type | Expected Capacitance (F) | Tolerance | Max Expected Capacitance (F) | Min Expected Capacitance (F) | Measured Capacitance (F) |
-|-------------|----------------|--------------------------|-----------|------------------------------|-------------------------------|---------------------------|
-| 1           | Electrolytic   | 0.00047                  | 20%       | 0.000564                        | 0.000376                     | 0.00053                  |
-| 2           | Ceramic        | 0.000001                 | 5%        | 0.00000105                      | 0.00000095                    | 0.00000114               |
-| 3           | Ceramic        | 2.2E-11                  | 5%        | 2.31E-11                        | 2.09E-11                      | 3E-10                    |
-| 4           | Ceramic        | 0.000000001              | 10%       | 1.1E-09                         | 9E-10                         | 1.34E-09                 |
 
 **Polarity Check for Electrolytic Capacitor:**
 | DMM Lead #1 | DMM Lead #2 | Voltage Measurement (V) |
