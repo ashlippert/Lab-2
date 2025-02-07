@@ -130,7 +130,7 @@
 
 ## Test Results:
 
-**Resistor Values for Soldered Circuit (Schematic 1):**
+**Table 1: Resistor Values for Soldered Circuit (Schematic 1)**
 
 | Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) |
 |------------|--------|--------|--------|--------|----------------------------|-----------|----------------------|------------------|----------------------------|
@@ -139,30 +139,31 @@
 | 3          | Green  | Brown  | Red    | Gold   | 5100                       | 5%        | 5355                 | 4845            | 4970                        |
 
 
-**Resistor Values for Schematics 2 and 3:**
+**Table 2: Resistor Values for Schematics 2 and 3**
+
 | Resistor # | Band 1 | Band 2 | Band 3 | Band 4 | Expected Resistance (Ohms) | Tolerance | Max Value (Ohms) | Min Value (Ohms) | Measured Resistance (Ohms) |
-|------------|--------|--------|--------|--------|----------------------------|-----------|----------------------|------------------|----------------------------|
-| 1          | Yellow | Purple | Red    | Gold   | 4700                       | 5%        | 4935    
-             | 4465             | 4555                       |
-| 2          | Blue   | Grey   | Red    | Gold   | 6800                       | 5%        | 7140                 | 6460             | 6946                       |
-| 3          | Brown  | Green  | Orange | Gold   | 15000                      | 5%        | 15750                | 14250            | 15240                      |
-| 4          | Red    | Red    | Red    | Gold   | 2200                       | 5%        | 2310                 | 2090            | 2282                        |
+|------------|--------|--------|--------|--------|----------------------------|-----------|------------------|------------------|----------------------------|
+| 1          | Yellow | Purple | Red    | Gold   | 4700                       | 5%        | 4935             | 4465             | 4555                       |
+| 2          | Blue   | Grey   | Red    | Gold   | 6800                       | 5%        | 7140             | 6460             | 6946                       |
+| 3          | Brown  | Green  | Orange | Gold   | 15000                      | 5%        | 15750            | 14250            | 15240                      |
+| 4          | Red    | Red    | Red    | Gold   | 2200                       | 5%        | 2310             | 2090             | 2282                        |
 
+**Table 3: Power Supply Voltage Verification**
 
-**Power Supply Voltage Verification:**
 | Expected Current from DCPS (A) | Expected Voltage from DCPS (V) | DMM Voltage Measurement (V) |
 |--------------------------------|--------------------------------|-----------------------------|
 | 0                              | 10                             | 9.99                        |
 | 0                              | 12                             | 12                          |
 
 
-**Function Generator Output:**
-|       Method        |  Wave Type  | Frequency (kHz) | Amplitude (V) |
-|---------------------|-------------|-----------------|---------------|
-| Counting Squares    | Sinusoidal  | 2.5             | 20            |
-| Cursors             | Sinusoidal  | 2.267           | 20            |
-| Measurement Feature | Sinusoidal  | 2.202           | 20.20         |
-| DMM                 | Sinusoidal  | 2.2             | 7.16          |
+**Table 4: Measured Currents for KCL Circuit (Part 2.2)**
+
+|   Current Label   |  Measured Value  |
+|-------------------|------------------|
+| I1                | Sinusoidal  | 
+| I 2/3             | Sinusoidal  | 
+| I4                | Sinusoidal  | 
+| I5/IL             | Sinusoidal  |
 
 ## Discussion:
 
