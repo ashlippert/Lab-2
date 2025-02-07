@@ -16,6 +16,8 @@
 5. DC Power Supply (DCPS)
 6. Fluke 87 V DMM
 7. Wire trimmers
+8. Breadboard
+9. Additional wires
 
 ## Assembly Methods:
 
@@ -36,7 +38,7 @@
    The circuit constructed for this portion of the lab is described by the following schematic in Figure 1. The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
 
 <div align="center">
-  <img src="Schematic 1" alt="Schematic 1" width="400">
+  <img src="Schematic1" alt="Schematic 1" width="400">
   <p><b>Figure 1:</b> Schematic describing the series resistor circuit built for part 1 of this lab.</p>
 </div>
 
@@ -54,11 +56,29 @@
   <p><b>Figure 3:</b> Top view of soldered series resistor circuit.</p>
 </div>
 
-**Objective 2: Learn how to use GitHub for collaboration and to post your report**
+**Objective 2: Analyze a circuit to verify Kirchhoff’s Voltage Law (KVL) and Kirchhoff’s Current Law (KCL), and apply Thevenin’s and Superposition Theorems**
 
-1. Create a GitHub account and verify email address.
-2. Add lab partners as collaborators for your lab report repository.
+
+1. **Series Circuit**
+
+   Utilize the soldered series circuit prepared in Objective 1.
    
+2. **Parallel Circuit**
+
+   Obtain the following resistors: 4.7 kΩ (R1), 6.8 kΩ (R2), 15 kΩ (R3), 220 kΩ (R5), and 2.2 kΩ (R5 = RL) and verify their resistance value (if not already performed in Objective 1). Refer to the schematic given in Figure 4 for assembly instruction.
+
+   <div align="center">
+  <img src="Schematic2" alt="Schematic 2" width="400">
+  <p><b>Figure 4:</b> Parallel resistor circuit schematic for part 2 of this lab.</p>
+</div>
+
+   No soldering is necessary for this circuit, but verification of the DCPS voltage output was performed using the DMM to ensure the voltage is within .1V of the expected output. Once assembled, the circuit should look like the following:
+
+   <div align="center">
+  <img src="Lab2Circuit2" alt="Assembled series resistor circuit" width="400">
+  <p><b>Figure 5:</b> Assembled series resistor circuit for part 2 of this lab.</p>
+</div>
+
 
 ## Test Equipment:
 1. Fluke 87 V DMM
