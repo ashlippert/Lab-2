@@ -37,6 +37,10 @@
    The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard.
    Once the circuit was verified to be correct, we used the soldering station set to 650 degress to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
 
+ <div align="center">
+  <img src="hand solder circuit.png" alt="Technique for Soldering" width="400">
+  <p><b>Figure 1:</b> Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray.</p>
+</div>
 
 
    <div align="center">
