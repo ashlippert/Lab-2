@@ -203,3 +203,8 @@ Seth provide response here
 
 
 ## Conclusion:
+
+
+## Sources:
+
+Ultimate Guide to Electronic Soldering. (n.d.). Techspray. https://www.techspray.com/ultimate-guide-to-electronic-soldering?srsltid=AfmBOoprXNhd-Lety6MHBoPSrOQDy-SjmZflQmQewodzb_W0G7A7Jpsk
