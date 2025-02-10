@@ -1,14 +1,18 @@
 # Lab 2: For Good Measure
 
-## Authors: Ashlyn Lippert and Seth Daniel
+**Authors:**
 
-## Date: February 9th, 2025
+Ashlyn Lippert and Seth Daniel
 
-## Introduction:
+**Date:**
+
+February 9th, 2025
+
+## Introduction
    The goal of this project was to analyze electrical circuits by applying fundamental circuit laws, including Kirchhoff’s Voltage Law (KVL), Kirchhoff’s Current Law (KCL), and Ohm’s Law. The analysis also incorporated Thevenin’s and Norton’s theorems, along with the superposition principle, to simplify complex circuit calculations. Additionally, the project required hands-on circuit assembly and soldering, reinforcing practical skills essential for electrical and electronic work.
    As part of this project, a series circuit was soldered and a prototype parallel circuit was assembled to experimentally verify theoretical principles. Measurements of voltage and current were taken using appropriate instruments, and the collected data was compared against theoretical predictions based on circuit laws. The soldering process provided valuable hands-on experience, highlighting the importance of precision in electronic assembly. Overall, the project enhanced both theoretical understanding and practical skills in electrical circuit analysis.
 
-## Materials:
+## Materials
 1. Soldering station
 2. Solder Protoboard
 3. Small piece of solder
@@ -19,7 +23,7 @@
 8. Breadboard
 9. Additional wires
 
-## Assembly Methods:
+## Assembly Methods
 
 **Objective 1: Learn soldering techniques by building a simple circuit on a solder protoboards**
 
@@ -27,24 +31,33 @@
    
    The circuit constructed for this portion of the lab is described by the following schematic in Figure 1. The 1kΩ (R1), 2.2kΩ (R2), and 5.1kΩ (R3) resistors were placed in series on the protoboard, then the leads of the resistors were trimmed down using wire cutters and folded against the protoboard. Be sure to verify the resistor values using the DMM before soldering any resistors into the protoboard.
 
-<div align="center">
-  <img src="Schematic1" alt="Schematic 1" width="400">
-  <p><b>Figure 1:</b> Schematic describing the series resistor circuit built for part 1 of this lab.</p>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/ba343305-14bd-413f-810b-dd71efa915af" alt "Schematic 1" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 1: Schematic describing the series resistor circuit built for part 1 of this lab. </figcaption>
 </div>
+
+<br>
 
    Once the circuit was verified to be correct, we used the soldering station set to 640 degrees to solder the resistors to the protoboard. The soldering technique we used can be described by the following diagram from Techspray.
 
- <div align="center">
-  <img src="hand solder diagram.jpg" alt="Technique for Soldering" width="400">
-  <p><b>Figure 2:</b> Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray.</p>
+<div align= "center">
+<img src="https://github.com/user-attachments/assets/e18bd5aa-c633-454e-9cf7-5fa1ff410287" alt "Technique for Soldering" width="400"/>
+<br>
+<figcaption style="font-size: 16px; text-align: center;"> Figure 2: Soldering Technique used by our lab group to solder the series circuit. Retrieved from TechSpray. </figcaption>
 </div>
+
+<br>
 
    The resistors were soldered by placing the soldering iron on the designated solder point, then after a couple seconds, introducing the solder material to the same point. Once the solder is liquefied, the iron was used to ensure the solder is in the appropriate location and covering the resistor leads. The same process was used for each resistor lead. Each partner performed 3 resistor lead solders on the protoboard. Additionally, one end of two separate wires were soldered to the terminals of R1 and R3 for DCPS connection. The finished soldered series circuit is provided in the figure below. 
 
    <div align="center">
-  <img src="CircuitSolder" alt="Top View of Soldered Series Circuit" width="400">
-  <p><b>Figure 3:</b> Top view of soldered series resistor circuit.</p>
+  <img src="https://github.com/user-attachments/assets/413cc0c5-ea1c-4aa9-a10b-b0bfe5e35836" alt="Top View of Soldered Series Circuit" width="400"/>
+<br>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 3: Top view of soldered series resistor circuit. </figcaption>
 </div>
+
+<br>
 
 **Objective 2: Analyze a circuit to verify Kirchhoff’s Voltage Law (KVL) and Kirchhoff’s Current Law (KCL), and apply Thevenin’s and Superposition Theorems**
 
@@ -58,14 +71,15 @@
    Obtain the following resistors: 4.7 kΩ (R1), 6.8 kΩ (R2), 15 kΩ (R3), 220 kΩ (R5), and 2.2 kΩ (R5 = RL) and verify their resistance value using the DMM. Record the measured resistances in a table. Refer to the schematic given in Figure 4 for assembly instruction.
 
    <div align="center">
-  <img src="Schematic2" alt="Schematic 2" width="400">
+  <img src="https://github.com/user-attachments/assets/8b7ab9ec-ee73-4ae1-90cb-73f4a3801057" alt="Schematic 2" width="400">
   <p><b>Figure 4:</b> Parallel resistor circuit schematic.</p>
 </div>
+
 
    No soldering is necessary for this circuit, but verification of the DCPS voltage output was performed using the DMM to ensure the voltage is within .1V of the expected output. Once assembled, the circuit should look like the following:
 
    <div align="center">
-  <img src="Lab2Circuit2.png" alt="Assembled parallel resistor circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/597d69bd-2b53-43ee-916b-f3644e0ede8e" alt="Assembled parallel resistor circuit" width="400">
   <p><b>Figure 5:</b> Assembled parallel resistor circuit for part 2.1 and 2.2 of this lab.</p>
 </div>
 
@@ -75,22 +89,24 @@
    Thevenin’s Theorem states that all linear circuits can be expressed as a circuit with one equivalent voltage source and one equivalent resistance. To create the Thevenin equivalent circuit, remove R5 from the parallel circuit assembled in the previous step of Objective 2. The schematic for the Thevenin circuit is shown in Figure 6 below.
 
    <div align="center">
-  <img src="Schematic3" alt="Thevenin circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/fbbb8eed-8e6c-4acc-805c-082b84bc9dc1" alt="Thevenin circuit" width="400">
   <p><b>Figure 6:</b> Thevenin equivalent circuit schematic.</p>
+
 </div>
 
    When assembled, the Thevenin circuit should resemble the image below.
 
    <div align="center">
-  <img src="Lab2Circuit3.png" alt="Assembled Thevenin circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/5af5d1d8-2de2-49b8-ab32-6b469ad4e38b" alt="Assembled Thevenin circuit" width="400">
   <p><b>Figure 5:</b> Assembled Thevenin resistor circuit for part 2.3 of this lab.</p>
 </div>
 
-## Test Equipment:
+## Test Equipment
+
 1. Fluke 87 V DMM
 2. DC Power Supply
    
-## Test Procedures:
+## Test Procedures
 
 **Resistor Measurement**
 
@@ -105,7 +121,7 @@
 
 1. **Voltage and Current Measurements:**
    
-    Using the soldered circuit created in objective 1 of the assembly procedures, connect the terminals of R1 and R3 to the DC Power Supply using the alligator clips. Ensure black is connected to - terminal (ground) and red is connected to the + terminal.
+   Using the soldered circuit created in objective 1 of the assembly procedures, connect the terminals of R1 and R3 to the DC Power Supply using the alligator clips. Ensure black is connected to - terminal (ground) and red is connected to the + terminal.
    Once connected, set the DCPS to 10 V and press the OUTPUT ON button to begin delivering power to the circuit. Next, using the DMM measure the voltage drop across each resistor and record the results in a table.
    Change the DMM settings and lead connections to measure current, then record the current in the circuit.
 
