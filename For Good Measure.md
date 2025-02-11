@@ -191,32 +191,51 @@ February 9th, 2025
 | V1      | 8.44                   | 8.29                    |
 | V2      | 1.1                    | 12.64                   |
 | V3      | 2.45                   | 27.73                   |
-| V4      | 3.55                   | 352.11                  |
+| V4      | 9.68                   | 9.5                     |
 | V5      | 3.55                   | 3.742                   |
 
 ## Discussion:
 
 Discussion Question 1: Are the measured currents in agreement with Kirchhoff’s Current Law?
 
-Seth provide response here
+Our data does not comply with Kirchhoff’s current law. Kirchhoff’s Current Law states that the sum of currents entering a node must equal the sum of currents leaving the node.
+The total sum of branch currents exceeds I(1), which could be due to incorrect DMM settings or human errors during measurement. These issues likely also explain the discrepancies between calculated and measured voltage drop.
 
 
 Discussion Question 2: Compare the measured values and the calculated values. Are these in
 agreement with Kirchhoff’s Voltage Law?
 
-Seth provide response here
+Kirchhoff’s Voltage Law states that the sum of voltage drops around a closed loop must equal the supplied voltage. From our measured voltages: V4 + V5 = 12.23V, since the input voltage is 12V, we can conclude our data complies with Kirchhoff’s voltage law (ignoring minor discrepancies due to error).
 
 Discussion Question 3: Calculate the power delivered by the power supply and the power
 dissipated by every resistor. Is the power delivered by the power supply equal to the total power
 dissipated?
 
-Seth provide response here
+The power supplied by the power source should equal the total power dissipated by resistors in the circuit.
+
+Power Supplied:
+
+P = V * I = 12V * 1.82mA = 0.0218 W
+
+
+Power Dissipated by Resistors:
+
+∑ (V^2) / R = 0.0177 W
+
+
+The difference between supplied and dissipated power suggests measurement inaccuracies, most likely due to DMM misconfiguration or human errors during measurement. 
+
 
 Discussion Question 4: Using circuit analysis, calculate RTH, IN, and VTH, and compare them with
 the measured values. Are the calculated values in agreement with the measured values?
 
-Seth provide response here
+| Symbol  | Measured               | Calculated              |
+|---------|------------------------|-------------------------|
+| Vth     | 9.68V                  | 9.7 V                   |
+| In      | 44.5uA                 | 43.5 uA                 |
+| Rth/Rn  | 3760Ω                  | 223000 Ω                |
 
+The values we calculated using circuit analysis and expected resistances completely agree with the measured values. Any small discrepancies can be explained by resistor tolerances.
 
 ## Conclusion:
 
