@@ -239,6 +239,7 @@ The values we calculated using circuit analysis and expected resistances complet
 
 ## Conclusion:
 
+This lab reinforced our understanding of circuit analysis by applying Kirchhoff’s laws, Ohm’s law, and Thevenin’s theorem. We built and tested series and parallel circuits, taking voltage and current measurements to compare with theoretical values. While most results aligned with expectations, some discrepancies were likely due to measurement errors or resistor tolerances. Additionally, soldering the series circuit provided valuable hands-on experience. Overall, the lab improved both our analytical and practical skills in circuit design and testing.
 
 ## Sources:
 
